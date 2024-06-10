@@ -21,7 +21,7 @@ export default function Profile(){
 
     return(
         <Container>
-            <Header title="Meu Perfil" />
+            <Header title="Meu Perfil"/>
 
             <Message>
                 Hey, Bem Vindo de volta!
@@ -32,7 +32,7 @@ export default function Profile(){
             </Name>
 
             <NewLink onPress={ () => navigation.navigate('Movimentações')}>
-                <NewText>Fazer registro</NewText>
+                <NewText>Registrar Movimentção</NewText>
             </NewLink>
 
             <LogoutButton onPress={ () => signOut()}>
